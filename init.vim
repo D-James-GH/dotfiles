@@ -19,6 +19,10 @@ call plug#end()
 "Standard vim Config Section ================================================
 set encoding=UTF-8
 
+" jump visual lines
+nnoremap j gj 
+nnoremap k gk
+
 " terminal options
 " open new split panes to right and below
 set splitright
@@ -99,7 +103,6 @@ let g:coc_global_extensions = [
        \'coc-scssmodules',
        \'coc-graphql',
        \'coc-snippets',
-       \'coc-markdownlint',
        \'coc-highlight',
        \'coc-json',
        \'coc-git',
