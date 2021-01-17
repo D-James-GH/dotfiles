@@ -16,7 +16,8 @@ echo "Git has been configured"
 
 echo "### Install nvm"
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | zsh
-exec zsh
+
+source ~/.zshrc
 
 echo "### Install latest lts for nodejs"
 nvm install --lts
