@@ -2,8 +2,6 @@
 
 apt update -y 
 
-echo "### installing git"
-apt install git -y
 
 echo "### configure git"
 echo "Enter Global git user name:"
