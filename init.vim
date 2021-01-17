@@ -19,6 +19,9 @@ call plug#end()
 "Standard vim Config Section ================================================
 set encoding=UTF-8
 
+"no line numbers in a markdown file
+autocmd filetype markdown setlocal nonumber
+
 " jump visual lines
 nnoremap j gj 
 nnoremap k gk
@@ -34,7 +37,7 @@ au BufEnter * if &buftype == 'terminal' | :startinsert | endif
 " open terminal on ctrl+n
 function! OpenTerminal()
   split term://zsh
-  resize 10
+  resize 10 naaa naaa naaa na na na naaaa mcr
 endfunction
 nnoremap <c-n> :call OpenTerminal()<CR>
 "remap terminal close to make it easier

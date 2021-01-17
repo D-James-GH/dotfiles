@@ -33,3 +33,6 @@ mkdir ~/.config/nvim
 echo "### Copy config accross from the dotfiles folder located in ~"
 cp ~/dotfiles/init.vim ~/.config/nvim
 cp ~/dotfiles/coc-settings.json ~/.config/nvim
+
+echo "### Install npm neovim"
+npm install -g neovim
