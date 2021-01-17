@@ -30,8 +30,8 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
 echo "### Creating nvim config location"
 mkdir ~/.config/nvim
 echo "### Copy config accross from the dotfiles folder located in ~"
-cp ~/dotfiles/init.vim ~/.config/nvim
-cp ~/dotfiles/coc-settings.json ~/.config/nvim
+cp ./init.vim ~/.config/nvim
+cp ./coc-settings.json ~/.config/nvim
 
 echo "### Install npm neovim"
 npm install -g neovim
