@@ -23,8 +23,9 @@ set encoding=UTF-8
 autocmd filetype markdown setlocal nonumber
 
 " jump visual lines
-nnoremap j gj 
-nnoremap k gk
+nnoremap <expr> j v:count ? 'j' : 'gj'
+nnoremap <expr> k v:count ? 'k' : 'gk'
+
 
 " terminal options
 " open new split panes to right and below
