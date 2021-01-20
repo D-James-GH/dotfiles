@@ -34,6 +34,6 @@ echo "### Creating nvim config location"
 mkdir ~/.config/nvim
 echo "### Copy config accross from the dotfiles folder located in ~"
 cp -v ./vim/* ~/.config/nvim
-
+cp .tmux.conf ~/
 echo "### Install npm neovim"
 npm install -g neovim
