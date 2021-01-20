@@ -7,7 +7,6 @@ set wrap " Automatically wrap text that extends beyond the screen length.
 " Indentation options
 set autoindent
 set expandtab       " tabs are space
-set filetype indent on
 set shiftround "always round indents to the nearest shift width
 set splitright " open new split panes to right and below
 set smarttab " Insert “tabstop” number of spaces when the “tab” key is pressed.
@@ -31,7 +30,25 @@ set hlsearch                        " highlight all search matches
 set textwidth=79                    " max width
 set formatoptions+=j                " remove comment characters when joining lines
 set formatoptions+=n                " indent numbered lists
-set colorcolumn=120                 " display a column after 120
+set colorcolumn=0
+let g:rainbow_active = 1            " rainbow brackets 
+" set t_Co=256
+" set background=dark
+set termguicolors
+" set cursorline
+let g:airline_theme='onedark'
+let g:onedark_termcolors=16
+let g:onedark_terminal_italics=1
+colorscheme onedark
+
+" let g:material_terminal_italics = 1
+" let g:material_theme_style = 'palenight'
+" colorscheme material
+" 
+" colorscheme onehalfdark
+" let g:airline_theme='onehalfdark'
+" lightline
+" let g:lightline = { 'colorscheme': 'onehalfdark' }
 
 "no line numbers in a markdown file
 autocmd filetype markdown setlocal nonumber
