@@ -12,3 +12,5 @@ echo "### Install powerlevel"
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSh_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 
 echo "### Please change ZSH_THEME='powerlevel10k/powerlevel10k' in .zshrc"
+
+echo "### Add export TERM=screen-256color to .zshrc"

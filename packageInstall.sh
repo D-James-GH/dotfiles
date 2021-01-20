@@ -17,6 +17,9 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | zsh
 
 source ~/.zshrc
 
+echo "### Install tmux"
+apt install tmux
+
 echo "### Install latest lts for nodejs"
 nvm install --lts
 

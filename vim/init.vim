@@ -10,6 +10,7 @@ Plug 'kaicataldo/material.vim', { 'branch': 'main' }
 Plug 'hzchirs/vim-material'
 Plug 'luochen1990/rainbow'
 Plug 'joshdick/onedark.vim'
+Plug 'KeitaNakamura/neodark.vim'
 Plug 'vim-airline/vim-airline'
 Plug 'preservim/nerdcommenter'
 Plug 'tpope/vim-surround'
@@ -23,7 +24,7 @@ endif
 
 call plug#end()
 
-"Standard vim Config Section ===============================================
+"Standard vim Config Section edited ===============================================
 
 
 
