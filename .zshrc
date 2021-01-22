@@ -83,7 +83,7 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
-
+export PATH="$PATH:/home/dan/Documents/flutter/flutterSDK/flutter/bin"
 export PATH="$PATH:/opt/yarn-[version]/bin"
 export TERM=screen-256color
 # You may need to manually set your language environment

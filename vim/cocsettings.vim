@@ -2,6 +2,7 @@
 let g:coc_global_extensions = [
        \'coc-tsserver',
        \'coc-html',
+       \'coc-flutter',
        \'coc-css',
        \'coc-eslint',
        \'coc-scssmodules',

@@ -23,4 +23,6 @@ augroup END
 " NERDTree config
 nnoremap <C-t> :NERDTreeToggle<CR>
 
-
+" flutter/dart mapping
+xmap <leader>a  <Plug>(coc-codeaction-selected)
+nmap <leader>a  <Plug>(coc-codeaction-selected)

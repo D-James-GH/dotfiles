@@ -1,6 +1,7 @@
 {
   "coc.preferences.formatOnSaveFiletypes": [
     "css",
+    "dart",
     "markdown",
     "javascript",
     "javascriptreact",
