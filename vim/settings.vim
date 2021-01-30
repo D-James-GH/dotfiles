@@ -1,8 +1,7 @@
 set encoding=UTF-8
 set mouse=a "allow mouse support
 set wrap " Automatically wrap text that extends beyond the screen length.
-
-
+" Turn on syntax highlighting
 
 " Indentation options
 set autoindent
@@ -18,7 +17,7 @@ set scrolloff=5     " Display 5 lines above/below the cursor when scrolling with
 set splitbelow
 " start terminal in insert mode
 au BufEnter * if &buftype == 'terminal' | :startinsert | endif
-
+" set filetypes as typescriptreact
 
 " Display options -------
 set background=dark
@@ -50,12 +49,16 @@ endif
 "set t_Co=256
 " set cursorline
 let g:airline_theme='onedark'
-" let g:onedark_termcolors=16
+ "let g:onedark_termcolors=16
+
+ "let g:oceanic_next_terminal_bold = 1
+  "let g:oceanic_next_terminal_italic = 1
+  "colorscheme OceanicNext
 
 " Dark
-colorscheme vim-material
-" 
-" colorscheme onehalfdark
+"colorscheme onedark
+colorscheme gruvbox 
+ "colorscheme vim-material
 " let g:airline_theme='onehalfdark'
 " lightline
 " let g:lightline = { 'colorscheme': 'onehalfdark' }

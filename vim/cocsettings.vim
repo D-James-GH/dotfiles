@@ -1,6 +1,7 @@
 " coc config
 let g:coc_global_extensions = [
        \'coc-tsserver',
+        \ 'coc-styled-components',
        \'coc-html',
        \'coc-flutter',
        \'coc-css',
