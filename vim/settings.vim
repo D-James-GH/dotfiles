@@ -12,6 +12,7 @@ set smarttab " Insert “tabstop” number of spaces when the “tab” key is p
 set shiftwidth=2    " number of spaces to use for autoindent
 set tabstop=2       " number of visual spaces per TAB
 set softtabstop=2   " number of spaces in tab when editing
+set linespace=10
 
 set scrolloff=5     " Display 5 lines above/below the cursor when scrolling with a mouse.
 set splitbelow
@@ -53,11 +54,11 @@ let g:airline_theme='onedark'
 
  "let g:oceanic_next_terminal_bold = 1
   "let g:oceanic_next_terminal_italic = 1
-  "colorscheme OceanicNext
+  colorscheme OceanicNext
 
 " Dark
 "colorscheme onedark
-colorscheme gruvbox 
+"colorscheme gruvbox 
  "colorscheme vim-material
 " let g:airline_theme='onehalfdark'
 " lightline
@@ -74,6 +75,21 @@ set smartcase
 
 set clipboard+=unnamedplus
 
+
+  let g:clipboard = {
+          \   'name': 'win32yank-wsl',
+          \   'copy': {
+          \      '+': 'win32yank.exe -i --crlf',
+          \      '*': 'win32yank.exe -i --crlf',
+          \    },
+          \   'paste': {
+          \      '+': 'win32yank.exe -o --lf',
+          \      '*': 'win32yank.exe -o --lf',
+          \   },
+          \   'cache_enabled': 1,
+          \ }
+
+    
 augroup remember_folds
   autocmd!
   autocmd BufWinLeave * mkview

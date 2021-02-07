@@ -13,7 +13,7 @@ Plug 'natebosch/dartlang-snippets'
 Plug 'luochen1990/rainbow'
 Plug 'vim-airline/vim-airline'
 " color schemes
-Plug 'hzchirs/vim-material'
+"Plug 'hzchirs/vim-material'
 Plug 'morhetz/gruvbox'
 Plug 'joshdick/onedark.vim'
 Plug 'mhartington/oceanic-next'
@@ -30,8 +30,8 @@ filetype plugin on
  autocmd FileType typescript :set makeprg=tsc
 
 autocmd BufNewFile,BufRead *.tsx,*.jsx set filetype=typescriptreact
-autocmd BufEnter *.{js,jsx,ts,tsx} :syntax sync fromstart
-autocmd BufLeave *.{js,jsx,ts,tsx} :syntax sync clear
+"autocmd BufEnter *.{js,jsx,ts,tsx} :syntax sync fromstart
+"autocmd BufLeave *.{js,jsx,ts,tsx} :syntax sync clear
 
 "Standard vim Config Section edited ===============================================
 let g:dart_style_guide = 2
