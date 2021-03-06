@@ -1,0 +1,20 @@
+set surround
+set incsearch
+set ignorecase
+set smartcase
+set easymotion
+set multiple-cursors
+set scrolloff=5
+
+nnoremap L $
+nnoremap H ^
+nnoremap J L
+nnoremap K H
+
+vnoremap L $
+vnoremap H ^
+vnoremap J L
+vnoremap K H
+
+nnoremap U :action FindUsages<CR>
+nnoremap gb :action JumpToLastChange<CR>
